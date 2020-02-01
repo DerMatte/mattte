@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <hero />
-      
+      <contruction />
     </div>
   </div>
 </template>
@@ -12,7 +12,8 @@ import Hero from '~/components/Hero.vue'
 
 export default {
   components: {
-    Hero
+    Hero,
+    // Construction
   }
 }
 </script>
