@@ -7,7 +7,7 @@
           <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=340&q=80" alt="" srcset="">
         </div>
         <aside class="sidebox">
-          <h1 class="tagline">Matthias <hr> Digital Craftsmenship on the web</h1>
+          <h1 class="tagline">Matthias <br> - <br> Digital Craftsmenship on the web</h1>
           <div class="hireme"><h3>Hire me!</h3></div>
         </aside>
       </div>
@@ -15,7 +15,7 @@
     </div>
   </div>
 </template>
-<style>
+<style scoped>
 .hero {
   min-width: 100vw;
   min-height: 60vh;
@@ -30,7 +30,7 @@
 
 }
 .rects {
-  background-color:#fff;
+  /* background-color:#fff; */
   background-image: linear-gradient(#45F990 1px, transparent 1px),
   linear-gradient(90deg, #45F990 1px, transparent 1px);
 
@@ -61,29 +61,47 @@
   display: flex;
   align-content: center;
   justify-content: center;
+
+  position: relative;
   /* float: right; */
-  max-width: 40em;
-  min-width: 35em;
+  width: 33em;
+  /* min-width: 35em; */
   text-align: center;
   height: 8em;
 }
 .sidebox h1 {
-  margin-left: 2em;
+  margin-left: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
-.sidebox hr {
-  max-width: 6em;
+/* .sidebox hr {
+  max-width: 7em;
   text-align: center;
   margin: 0 auto;
-}
+
+} */
+
 .sidebox .hireme {
+  display: flex;
   background-color: #45F990;
   margin-left: auto;
+  margin-top: auto;
+  text-align: center;
+  width: 4em;
+  height: 8em;
 }
 .sidebox .hireme h3 {
   /* transform-origin: 0 0;
   transform: rotate(-90deg); */
-  /* position: absolute; */
-  
+  /* position: relative; */
+  /* transform: rotate(90deg); */
+  /* transform-origin: 0 100%; */
+  /* margin-left: 1em; */
+  margin-left: 22px;
+  margin-top: 8px;
+  transform: rotate(-180deg);
+  writing-mode: tb-lr;          /*  for IE  */
+  writing-mode: vertical-lr;
 
 }
 

@@ -2,15 +2,17 @@
   <div class="container">
     <div>
       <hero />
-      <contruction />
+      <!-- <Contruction /> -->
     </div>
   </div>
 </template>
 
 <script>
 import Hero from '~/components/Hero.vue'
+// import Construction from '~/components/Contruction.vue'
 
 export default {
+  layout: 'dark',
   components: {
     Hero,
     // Construction

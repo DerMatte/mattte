@@ -6,18 +6,19 @@
 
 <script>
 export default {
-    // Construction
+    Construction
 }
 </script>
 
 <style>
+
 .construction {
-  position: absolute
-  bottom: 10px
-  text-align: center
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
 }
 .construction h3 {
-  color: grey
+  color: grey;
 }
     
 </style>
