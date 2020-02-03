@@ -13,6 +13,9 @@ import Hero from '~/components/Hero.vue'
 
 export default {
   layout: 'dark',
+  generate: {
+    fallback: true
+  },
   components: {
     Hero,
     // Construction
