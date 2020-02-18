@@ -17,8 +17,16 @@ html {
   box-sizing: border-box;
   background-color: #fff;
   color: #111;
-}
+  /* // Dev Ed: 10 CSS Tricks */
+  scroll-behavior: smooth;
+  font-size: 62.5%;
 
+}
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 55%;
+  }
+}
 *,
 *:before,
 *:after {

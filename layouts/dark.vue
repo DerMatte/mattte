@@ -25,7 +25,10 @@ html {
   box-sizing: border-box;
 
   background: lightslategray;
-  color: white;
+  /* color: white; */
+
+  /* Dev Ed: 10 CSS Tricks */
+  /* filter: invert(1) hue-rotate(180deg); */
 }
 
 *,

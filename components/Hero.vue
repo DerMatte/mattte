@@ -35,7 +35,7 @@
   linear-gradient(90deg, #45F990 1px, transparent 1px);
 
   background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
-  background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
   width: 100vw;
   height: 800px;
   margin: 0;
@@ -46,12 +46,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 7em;
+  margin-top: 10vh;
 }
 .heroimg img {
   /* margin-top: 6em;
   margin-left: 8em; */
-  width: 18em;
+  width: 25rem;
   border-color: #7361e3;
   border-style: solid;
   border-width: 12px;
@@ -61,18 +61,18 @@
   display: flex;
   align-content: center;
   justify-content: center;
-
   position: relative;
   /* float: right; */
-  width: 33em;
+  width: 35vw;
   /* min-width: 35em; */
   text-align: center;
-  height: 8em;
+  height: 15rem;
+  
 }
 .sidebox h1 {
-  margin-left: 1.5em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin: auto;
+  font-size: 1.8rem;  
+  
 }
 /* .sidebox hr {
   max-width: 7em;
@@ -87,8 +87,8 @@
   margin-left: auto;
   margin-top: auto;
   text-align: center;
-  width: 4em;
-  height: 8em;
+  width: 5vw;
+  height: 15rem;
 }
 .sidebox .hireme h3 {
   /* transform-origin: 0 0;
@@ -97,11 +97,11 @@
   /* transform: rotate(90deg); */
   /* transform-origin: 0 100%; */
   /* margin-left: 1em; */
-  margin-left: 22px;
-  margin-top: 8px;
+  margin: auto;
   transform: rotate(-180deg);
   writing-mode: tb-lr;          /*  for IE  */
   writing-mode: vertical-lr;
+  font-size: 1.5rem;
 
 }
 
