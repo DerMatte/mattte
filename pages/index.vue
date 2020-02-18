@@ -5,6 +5,7 @@
     <!-- <Projects /> -->
     <!-- <Contruction /> -->
 
+    <!-- Webrpoj Start - Content Source: Lanas.dev -->
     <div class="webproj">
       <!-- Lanas.dev -->
       <div class="trianglebox">
@@ -22,10 +23,35 @@
       
     </div>
       <div class="seperator" id="webprojects">
-        <hr>
-        <nuxt-link to="#">> more |web| projects</nuxt-link>
+        <hr> <p><</p>
+        <nuxt-link to="#"> more |web| projects</nuxt-link>
       </div>
-    
+    <!-- Tech Blog Start - Content Source: twnt.xyz -->
+    <div class="techblog">
+      <div class="element">
+        <nuxt-link to="#">
+          <div class="circle"></div>
+          <div class="circletextbox"><h3>Lorem, ipsum.</h3><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, cumque.</p></div>
+        </nuxt-link>
+      </div>
+      <div class="element">
+        <nuxt-link to="#">
+          <div class="circle"></div>
+          <div class="circletextbox"><h3>Lorem, ipsum.</h3><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, cumque.</p></div>
+        </nuxt-link>
+      </div>
+      <div class="element">
+        <nuxt-link to="#">
+          <div class="circle"></div>
+          <div class="circletextbox"><h3>Lorem, ipsum.</h3><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, cumque.</p></div>
+        </nuxt-link>
+      </div>
+    </div>
+    <div class="seperator" id="techblog">
+        <hr> <p><</p>
+        <nuxt-link to="#"> more |Tech| projects</nuxt-link>
+      </div>
+
   </div>
 </template>
 
@@ -67,7 +93,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -132,6 +158,59 @@ export default {
 
 .seperator {
   margin-top: 2rem;
-  display: block;
+  display: inline-flex;
+  /* padding: 2rem 4rem; */
 }
+.seperator hr {
+  width: 60vw;
+  margin-left: 7em;
+}
+.seperator a {
+  /* font-size: 1.2rem; */
+  letter-spacing: 0.2em;
+  word-spacing: 1.5em;
+  margin-left: 2em;
+}
+
+/* Blog article start */
+.techblog {
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  text-decoration: none;
+  text-decoration-color: black;
+
+}
+.techblog .element {
+  /* margin: 5em 4em; */
+
+}
+.techblog .circle {
+  border-radius: 50%;
+	width: 10vw;
+	height: 10vw; 
+  background-color: orange;
+  /* margin: 2em 5em; */
+  padding-bottom: 10vh;
+}
+.techblog .circletextbox {
+  /* padding: 2em 0; */
+  background-color: #45F990;
+  width: 10vw;
+  margin-top: 5rem;
+  min-height: 10rem;
+
+}
+.techblog .circletextbox h3 {
+  padding: 1em;
+}
+.techblog .circletextbox p {
+  margin: 1em;
+}
+
+
+
+
+
 </style>
