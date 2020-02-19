@@ -188,10 +188,7 @@ export default {
   text-decoration-color: #111;
 
 }
-/* .techblog .element {
-  /* margin: 5em 4em; */
 
-} */
 .techblog .circle {
   border-radius: 50%;
 	width: 10vw;
