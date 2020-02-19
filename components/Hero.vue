@@ -20,8 +20,8 @@
   min-width: 100vw;
   min-height: 60vh;
   /* height: 600px; */
-  animation: 1s appear;
-  
+  animation: 0.5s appear;
+
   /* min-height: 100vh; */
   display: flex;
   justify-content: center;
@@ -46,6 +46,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-flow: row wrap;
   margin-top: 10vh;
 }
 .heroimg img {
@@ -64,15 +65,16 @@
   position: relative;
   /* float: right; */
   width: 35vw;
+  min-width: 25em;
   /* min-width: 35em; */
   text-align: center;
   height: 15rem;
-  
+
 }
 .sidebox h1 {
   margin: auto;
-  font-size: 1.8rem;  
-  
+  font-size: 1.8rem;
+
 }
 /* .sidebox hr {
   max-width: 7em;
@@ -84,10 +86,11 @@
 .sidebox .hireme {
   display: flex;
   background-color: #45F990;
-  margin-left: auto;
+  /* margin-left: auto; */ /* Caused  tagline wasn't centered! */
   margin-top: auto;
   text-align: center;
   width: 5vw;
+  min-width: 4em;
   height: 15rem;
 }
 .sidebox .hireme h3 {

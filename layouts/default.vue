@@ -27,6 +27,11 @@ html {
     font-size: 55%;
   }
 }
+/* @media screen and (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+} */
 *,
 *:before,
 *:after {
