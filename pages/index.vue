@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    
+
     <Hero />
     <!-- <Projects /> -->
     <!-- <Contruction /> -->
@@ -10,17 +10,17 @@
       <!-- Lanas.dev -->
       <div class="trianglebox">
         <div class="triangle"></div>
-        <div class="textbox"><h3>Lorem, ipsum.</h3><br><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, necessitatibus.</p></div>
+        <div class="textbox"><h3>Lorem, ipsum.</h3><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, necessitatibus.</p></div>
       </div>
       <div class="trianglebox">
         <div class="triangle"></div>
-        <div class="textbox"><h3>Lorem, ipsum.</h3><br><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, necessitatibus.</p></div>
+        <div class="textbox"><h3>Lorem, ipsum.</h3><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, necessitatibus.</p></div>
       </div>
       <div class="trianglebox">
         <div class="triangle"></div>
-        <div class="textbox"><h3>Lorem, ipsum.</h3><br><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, necessitatibus.</p></div>
+        <div class="textbox"><h3>Lorem, ipsum.</h3><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, necessitatibus.</p></div>
       </div>
-      
+
     </div>
       <div class="seperator" id="webprojects">
         <hr> <p><</p>
@@ -71,7 +71,7 @@ export default {
   },
   // data() {
   //   id: this.$route.params.id,
-    
+
   //   return posts [
   //     {
   //       id: '1',
@@ -124,41 +124,43 @@ export default {
 .webproj {
   min-height: 50vh;
   width: 100vw;
-  margin-top: -10rem;
-  display: inline-flex;
+  margin-top: -12em;
+  display: flex;
   justify-content: space-around;
-  
+  flex-flow: row wrap;
+
 }
-.trianglebox {
-  
-}
+/* .trianglebox {
+
+} */
 .triangle {
     /* background-image: url('https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'); */
   /* -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
 
-  width: 0; 
-  height: 0; 
-  border-bottom: 20vw solid blue;
+  width: 0;
+  height: 0;
+  border-bottom: 30em solid #7361E3;
   /* border-image: url('https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'); */
-  border-left: 10vw solid transparent; 
-  border-right: 10vw solid transparent;
+  border-left: 15em solid transparent;
+  border-right: 15em solid transparent;
 }
 
 .textbox {
   background-color: rgb(200,200,200);
-  width: 20vw;
+  width: 30em;
   margin-top: 5rem;
   min-height: 10rem;
 }
 .textbox h3, .textbox p {
-  margin: 1rem;
-  padding: 1rem;
+  /* margin: rem; */
+  padding: 1em 2em ;
 }
 
 .seperator {
   margin-top: 2rem;
-  display: inline-flex;
+  display: flex;
+
   /* padding: 2rem 4rem; */
 }
 .seperator hr {
@@ -171,44 +173,49 @@ export default {
   word-spacing: 1.5em;
   margin-left: 2em;
 }
+.seperator p {
+  margin-right: 1vw;
+}
 
 /* Blog article start */
 .techblog {
   margin-top: 5em;
   display: flex;
   justify-content: space-around;
+  flex-flow: row wrap;
   color: black;
   text-decoration: none;
-  text-decoration-color: black;
+  text-decoration-color: #111;
 
 }
-.techblog .element {
-  /* margin: 5em 4em; */
 
-}
 .techblog .circle {
   border-radius: 50%;
 	width: 10vw;
-	height: 10vw; 
-  background-color: orange;
+	height: 10vw;
+  min-width: 15em;
+  min-height: 15em;
+  background-color: #E37361;
+  background-image: url('https://images.unsplash.com/photo-1466074395296-41cba23ce4f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80');
+  border-color: #E37361;
+  border: 1px solid #E37361;
   /* margin: 2em 5em; */
-  padding-bottom: 10vh;
+  padding-bottom: 5em;
 }
 .techblog .circletextbox {
   /* padding: 2em 0; */
   background-color: #45F990;
   width: 10vw;
+  min-width: 15em;
   margin-top: 5rem;
   min-height: 10rem;
 
 }
-.techblog .circletextbox h3 {
-  padding: 1em;
-}
-.techblog .circletextbox p {
-  margin: 1em;
-}
 
+.techblog h3, .techblog p {
+  margin: 1rem;
+  padding: 1rem;
+}
 
 
 
