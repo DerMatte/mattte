@@ -130,9 +130,9 @@ export default {
   flex-flow: row wrap;
 
 }
-.trianglebox {
+/* .trianglebox {
 
-}
+} */
 .triangle {
     /* background-image: url('https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'); */
   /* -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
@@ -185,20 +185,23 @@ export default {
   flex-flow: row wrap;
   color: black;
   text-decoration: none;
-  text-decoration-color: black;
+  text-decoration-color: #111;
 
 }
-.techblog .element {
+/* .techblog .element {
   /* margin: 5em 4em; */
 
-}
+} */
 .techblog .circle {
   border-radius: 50%;
 	width: 10vw;
 	height: 10vw;
   min-width: 15em;
   min-height: 15em;
-  background-color: orange;
+  background-color: #E37361;
+  background-image: url('https://images.unsplash.com/photo-1466074395296-41cba23ce4f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80');
+  border-color: #E37361;
+  border: 1px solid #E37361;
   /* margin: 2em 5em; */
   padding-bottom: 5em;
 }

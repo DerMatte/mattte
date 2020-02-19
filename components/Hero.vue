@@ -63,9 +63,10 @@
   align-content: center;
   justify-content: center;
   position: relative;
-  /* float: right; */
+  max-width: 70em;
   width: 35vw;
   min-width: 25em;
+
   /* min-width: 35em; */
   text-align: center;
   height: 15rem;
